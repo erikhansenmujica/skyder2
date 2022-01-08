@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 
-export default () => (
+const Header = () => (
   <Head>
     <title>Skyder</title>
     <meta name="Skyder Beatz" content="" />
@@ -14,3 +14,4 @@ export default () => (
     />
   </Head>
 );
+export default Header;

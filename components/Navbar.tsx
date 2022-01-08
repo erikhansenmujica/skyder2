@@ -2,7 +2,7 @@ import React from "react";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { changeLanguage } from "../store/reducers/languageReducer";
 import styles from "../styles/Home.module.css";
-export default () => {
+const Navbar = () => {
   const dispatch = useAppDispatch();
   const content = useAppSelector((state) => state.language.content);
   const onChange = (e: string) => dispatch(changeLanguage(e));
@@ -23,3 +23,4 @@ export default () => {
     </div>
   );
 };
+export default Navbar;

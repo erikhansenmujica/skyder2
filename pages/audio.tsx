@@ -55,6 +55,7 @@ const Home: NextPage = () => {
               <a
                 href={"https://api.whatsapp.com/send?phone=542262632528"}
                 target={"_blank"}
+                rel="noreferrer"
               >
                 <div>
                   <a className={audioStyles.linkToPreviousProj}>Whatsapp</a>
@@ -64,6 +65,7 @@ const Home: NextPage = () => {
               <a
                 href={"https://www.instagram.com/skyderbeatz"}
                 target={"_blank"}
+                rel="noreferrer"
               >
                 <div>
                   <a className={audioStyles.linkToPreviousProj}>Instagram</a>
