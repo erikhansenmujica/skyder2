@@ -21,7 +21,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <AppHead />
       <video
-        src="/fondoWeb.mp4"
+        src="/fondo.mp4"
         ref={bgRef}
         className={styles.backgroundVideo}
         loop

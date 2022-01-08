@@ -22,7 +22,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <AppHead />
       <video
-        src="/fondoWeb.mp4"
+        src="/fondo.mp4"
         ref={bgRef}
         className={styles.backgroundVideo}
         loop
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         <div className={styles.videosContainer}>
           <Link href={"/audio"}>
             <video
-              src="/BotonAudio.mp4"
+              src="/BotonAudio.mov"
               ref={audiotButtonRef}
               loop
               muted
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
           </Link>
           <Link href={"/video"}>
             <video
-              src="/BotonVideo.mp4"
+              src="/BotonVideo.mov"
               ref={videoButtonRef}
               loop
               muted
