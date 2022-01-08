@@ -1,0 +1,106 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("/audioimage2.jpg");
+}
+.secondBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/audioimage1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.firstBlock {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/audioimage2.jpg");
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-top: -2.6%;
+}
+
+.subtitles {
+  max-width: 40%;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  opacity: 0.9999;
+  text-shadow: 2px 2px 4px #000000;
+}
+.thirdBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 95vh;
+}
+.images {
+  object-fit: cover;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 40%;
+}
+.linkToPreviousProj {
+  border-bottom: 2px solid white;
+  font-size: larger;
+  margin-bottom: 30px;
+}
+.contact {
+  font-size: larger;
+}
+.contactContainer {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactMethods {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.optionsBoxes {
+  flex: 1;
+}
+.middleOptionsBox {
+  flex: 1;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+.optionsFlexContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 27vh;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 388px) {
+  .middleOptionsBox {
+    border-right: none;
+  }
+}
